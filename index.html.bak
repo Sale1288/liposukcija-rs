@@ -57,11 +57,7 @@
 </script>
 
 
-
-	<!-- Start WOWSlider.com HEAD section --> <!-- add to the <head> of your page -->
-	<link rel="stylesheet" type="text/css" href="engine0/style.css" />
-	<script type="text/javascript" src="engine0/jquery.js"></script>
-	<!-- End WOWSlider.com HEAD section --></head>
+</head>
 <body data-spy="scroll" data-target=".navMenuCollapse">
 
 <div id="wrap"> 
@@ -87,7 +83,6 @@
 
 
 
-	
 	<header>
 
 	<!--<div class="col-md-6 col-md-offset-6">
@@ -100,36 +95,6 @@
 					<a class="btn btn-lg btn-primary goto" href="#contact-full"><i class="icon icon-speech"></i> Besplatne konsultacije</a>
 					<a class="btn btn-lg btn-default goto" href="#o-hirurgu"><i class="icon icon-info"></i> O hirurgu</a>
 				</div>-->
-				<!-- Start WOWSlider.com BODY section --> <!-- add to the <body> of your page -->
-	<div id="wowslider-container0">
-	<div class="ws_images"><ul>
-		<li><img src="data0/images/headerpripremezaliposukciju.jpg" alt="nn" id="wows0_0"/>
-		<div class="ws-title-wrapper"><div class="ws-title caption-first-slide">
-					<div class="slogan" style="z-index: 999;">
-						<h1><b>OBLIKOVANJE</b><br>
-							TELESNIH KONTURA I PROPORCIJA<br>
-						<b>LIPOSUKCIJOM</b></h1>
-                        <p>Ukoliko imate problema sa suvišnim masnim naslagama na određenim delovima tela koje ne reaguju na dijetu ili vežbanje, 
-							<a href="http://www.plasticnaestetskahirurgija.com/srpski/liposukcija" target="_blank" style="display: inline; color:black; font-weight: bold;">liposukcija</a> može biti pravi izbor za vas.</p>
-					</div>
-					<a class="btn btn-lg btn-primary goto" style="width: 295px; display: inline-block;" href="#contact-full"><i class="icon icon-speech"></i> Besplatne konsultacije</a>
-					<a class="btn btn-lg btn-default goto" style="width: 185px; display: inline-block; color: #00c0ff; border: 1px solid #00c0ff;" href="#o-hirurgu"><i class="icon icon-info"></i> O hirurgu</a>
-		</div>
-		</div>
-		</li>
-		<li><img src="data0/images/markiranjezaliposukcijskizahvat.jpg" alt="jquery image slider" title="markiranje-za-liposukcijski-zahvat" id="wows0_1"/></li>
-		<li><img src="data0/images/visakmasnihnaslaga.jpg" alt="visak-masnih-naslaga" title="visak-masnih-naslaga" id="wows0_2"/></li>
-	</ul></div>
-	<div class="ws_bullets"><div>
-		<a href="#" title="header-pripreme-za-liposukcijski"><span>2</span></a>
-		<a href="#" title="markiranje-za-liposukcijski-zahvat"><span>2</span></a>
-		<a href="#" title="visak-masnih-naslaga"><span>3</span></a>
-	</div></div>
-	<div class="ws_shadow"></div>
-	</div>	
-	<script type="text/javascript" src="engine0/wowslider.js"></script>
-	<script type="text/javascript" src="engine0/script.js"></script>
-	<!-- End WOWSlider.com BODY section -->
 	</header>
 	
 

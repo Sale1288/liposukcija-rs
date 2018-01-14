@@ -31,6 +31,10 @@ header {
 	border-bottom: 1px solid #e8e8e8;
 }
 
+header {
+	padding: 0;
+}
+
 section.dark-bg,
 header.dark-bg,
 .no-sep{
@@ -229,10 +233,10 @@ hr {
 }
 @media (max-width: 1200px) {
 section,
-header {
+/*header {
 	padding-top: 100px;
 	padding-bottom: 100px;
-}
+}*/
 .double-padding {
 	padding-top: 150px;
 	padding-bottom: 150px;
@@ -245,7 +249,6 @@ body {
 }
 
 section,
-header,
 .double-padding,
 .half-padding {
 	padding-top: 80px;
@@ -436,8 +439,8 @@ textarea.form-control {
 }
 .data-list-alt li {
 	border-top:1px solid rgba(0,0,0,0.05);
-	padding-top:15px;
-	padding-bottom:15px;
+	padding-top:9px;
+	padding-bottom:10px;
 }
 .data-list-alt .icon {
 	top:15px;
@@ -504,8 +507,9 @@ textarea.form-control {
 .btn-primary:hover,
 .btn-primary:focus,
 .btn-primary:active {
-	background: #009acc;
-	border-color: #009acc;
+	background: #03afe8;
+	border-color: #03afe8;
+	box-shadow: 0 0 15px #03afe8;
 }
 
 .btn-primary-white {
@@ -1500,9 +1504,10 @@ nav.navbar .container {
 	-webkit-text-shadow: 0px 1px 1px rgba(0,0,0,0.4);
 }
 
-.intro-block .slogan p {
-	margin: 50px 0 0 0;
+.slogan p {
+	margin: 15px 0;
 	opacity: 0.7;
+	font-size: 20px;
 }
 
 #big-video-wrap video,
@@ -2724,3 +2729,74 @@ ul.posts-line .post .title {
 	height: 100%;
 	background: none;
 }
+
+/*Go to top button*/
+
+#myBtn {
+    display: none; 
+    position: fixed;
+    bottom: 20px;
+    right: 30px; 
+    z-index: 99; 
+    border: none; 
+    outline: none; 
+    background-color:  #555;
+    color: white; 
+    cursor: pointer; 
+    padding: 15px;
+    border-radius: 10px; 
+}
+
+#myBtn:hover {
+    background-color: #03afe8;
+}
+
+.shake-animated {
+	-webkit-animation:shake 2.5s 1s infinite linear both;
+ 	-moz-animation:shake 2.5s 1s infinite linear both;
+ 	animation:shake 2.5s 1s infinite linear both;
+	 -webkit-box-shadow: inset 0px -5px 0px rgba(113, 160, 228, 0.2);
+    box-shadow: inset 0px -5px 0px rgba(113, 160, 228, 0.2);
+}
+
+.pulse-animated {
+	-webkit-animation:pulse 2.5s 1s infinite linear both;
+ 	-moz-animation:pulse 2.5s 1s infinite linear both;
+ 	animation:pulse 2.5s 1s infinite linear both;
+	 -webkit-box-shadow: inset 0px 5px 0px #ffe600b3;
+    box-shadow: inset 0px 5px 0px #ffe600b3;
+	position: fixed;
+	top: 250px;
+	right: 40px;
+	z-index: 999;
+	color: #555;
+	display: none;
+}
+
+
+/*Slider Top Settings*/
+
+
+header #wowslider-container0 .caption-first-slide, header #wowslider-container0 .ws-title .slogan{
+	max-width: 500px;
+	right: 15%;
+	left: auto;
+	bottom: 10%;
+}
+
+
+/*Carousel Settings*/
+
+.carousel-btm {
+	padding: 50px 0 50px 0;
+}
+
+.carousel-btm .bx-wrapper {
+	margin: 0 auto;
+}
+
+.carousel-btm .bx-wrapper img {
+	height: 200px;
+}
+
+
